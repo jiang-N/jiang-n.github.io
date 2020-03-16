@@ -13,10 +13,10 @@
     
     <item>
       <title>使用Hugo搭建博客的记录</title>
-      <link>https://jiang-n.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AE%B0%E5%BD%95/</link>
+      <link>https://jiang-n.github.io/posts/how-to-use-hugo/</link>
       <pubDate>Sun, 15 Mar 2020 10:47:54 +0800</pubDate>
       
-      <guid>https://jiang-n.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://jiang-n.github.io/posts/how-to-use-hugo/</guid>
       <description>Hugo简介  Hugo是使用Go语言实现的一个博客生成器 是世界上最快的博客生成器  安装Hugo 下载页面
   去下载页面下载hugo_xxx_Windows-64bit.zip
   解压，把hugo.exe存放到创建好的hugo目录下
@@ -32,10 +32,10 @@ hugo server -D   配置博客   打开config.</description>
     
     <item>
       <title>我的第一篇博客</title>
-      <link>https://jiang-n.github.io/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://jiang-n.github.io/posts/my-first-blog/</link>
       <pubDate>Sat, 14 Mar 2020 23:40:15 +0800</pubDate>
       
-      <guid>https://jiang-n.github.io/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://jiang-n.github.io/posts/my-first-blog/</guid>
       <description>这是我的第一篇博客，以后我将会在这里记录我的学习过程和遇到的问题</description>
     </item>
     
