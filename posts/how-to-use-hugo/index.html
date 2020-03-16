@@ -32,7 +32,7 @@
   把上一步的路径添加到PATH中
   在终端输入hugo version如果看到一个版本号，说明安装成功
 hugo version   搭建博客   在终端输入hugo new site quickstart创建一个新网站，quickstart可以替换成自己github的仓库名
-hugo new site quickstart   执行以下命令添加一个主题
+hugo new site quickstart   执行以下命令添加一个主题，在外层目录新建.gitignore文件，写入public
 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke   执行完上一步后执行命令
 echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml   执行命令，创建你的第一篇博客
 hugo new posts/my-first-post.md   执行以下命令来开启Hugo服务器
@@ -48,14 +48,14 @@ hugo server -D   配置博客   打开config." />
   把上一步的路径添加到PATH中
   在终端输入hugo version如果看到一个版本号，说明安装成功
 hugo version   搭建博客   在终端输入hugo new site quickstart创建一个新网站，quickstart可以替换成自己github的仓库名
-hugo new site quickstart   执行以下命令添加一个主题
+hugo new site quickstart   执行以下命令添加一个主题，在外层目录新建.gitignore文件，写入public
 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke   执行完上一步后执行命令
 echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml   执行命令，创建你的第一篇博客
 hugo new posts/my-first-post.md   执行以下命令来开启Hugo服务器
 hugo server -D   配置博客   打开config.">
 <meta itemprop="datePublished" content="2020-03-15T10:47:54&#43;08:00" />
 <meta itemprop="dateModified" content="2020-03-15T10:47:54&#43;08:00" />
-<meta itemprop="wordCount" content="56">
+<meta itemprop="wordCount" content="62">
 
 
 
@@ -67,7 +67,7 @@ hugo server -D   配置博客   打开config.">
   把上一步的路径添加到PATH中
   在终端输入hugo version如果看到一个版本号，说明安装成功
 hugo version   搭建博客   在终端输入hugo new site quickstart创建一个新网站，quickstart可以替换成自己github的仓库名
-hugo new site quickstart   执行以下命令添加一个主题
+hugo new site quickstart   执行以下命令添加一个主题，在外层目录新建.gitignore文件，写入public
 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke   执行完上一步后执行命令
 echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml   执行命令，创建你的第一篇博客
 hugo new posts/my-first-post.md   执行以下命令来开启Hugo服务器
@@ -191,7 +191,7 @@ hugo server -D   配置博客   打开config."/>
 <pre><code>hugo new site quickstart
 </code></pre></li>
 <li>
-<p>执行以下命令添加一个主题</p>
+<p>执行以下命令添加一个主题，在外层目录新建.gitignore文件，写入public</p>
 <pre><code>cd quickstart
 git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
@@ -232,6 +232,23 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 </li>
 <li>
 <p>在config文件中更改对应的主题名即可</p>
+</li>
+</ol>
+<h2 id="上传github">上传GitHub</h2>
+<ol>
+<li>
+<p>需要把public目录和父级目录分开上传，这也是之前创建.gitignore文件写入public的意义</p>
+</li>
+<li>
+<p>将外层的creator目录和public分别上传到GitHub的两个仓库</p>
+</li>
+<li>
+<p>在GitHub上存放public的仓库中点击setting选项
+<img src="https://s1.ax1x.com/2020/03/17/8tYCHP.png" alt="setting选项"></p>
+</li>
+<li>
+<p>下拉页面找到<strong>GitHub Pages</strong>分类，点击下面的链接即可在GitHub上预览HTML
+<img src="https://s1.ax1x.com/2020/03/17/8tYwE6.png" alt="setting选项"></p>
 </li>
 </ol>
 <ul class="pa0">

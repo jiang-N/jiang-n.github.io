@@ -107,7 +107,7 @@
   把上一步的路径添加到PATH中
   在终端输入hugo version如果看到一个版本号，说明安装成功
 hugo version   搭建博客   在终端输入hugo new site quickstart创建一个新网站，quickstart可以替换成自己github的仓库名
-hugo new site quickstart   执行以下命令添加一个主题
+hugo new site quickstart   执行以下命令添加一个主题，在外层目录新建.gitignore文件，写入public
 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke   执行完上一步后执行命令
 echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml   执行命令，创建你的第一篇博客
 hugo new posts/my-first-post.md   执行以下命令来开启Hugo服务器
